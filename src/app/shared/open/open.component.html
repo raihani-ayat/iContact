@@ -1,0 +1,33 @@
+
+
+  <ion-content>
+ 
+    <ion-thumbnail class="pic">
+      <ion-img src={{contact.image}}></ion-img>
+    </ion-thumbnail>
+   <ion-card class="card">
+    <ion-item class="input">
+      <ion-input  disabled="true" >{{contact.name}}</ion-input>
+    </ion-item>
+    <ion-item class="input">
+      <ion-input disabled="true" >{{contact.phone}}</ion-input>
+    </ion-item>
+    <ion-item class="input">
+      <ion-input disabled="true">{{contact.phone_bis}}</ion-input>
+    </ion-item>
+    <ion-item class="input">
+      <ion-input disabled="true" >{{contact.phone_bis}}</ion-input>
+    </ion-item>
+    <ion-item class="input">
+      <ion-input disabled="true" >{{contact.email}}</ion-input>
+    </ion-item>
+    <ion-item class="input">
+      <ion-input disabled="true" >{{contact.intagram}}</ion-input>
+    </ion-item>
+  </ion-card> 
+  <ion-buttons>
+    <ion-button shape="round" fill="outline" class="add1" (click)="onDismiss()">Annuler</ion-button>
+  </ion-buttons>
+  
+  </ion-content>
+

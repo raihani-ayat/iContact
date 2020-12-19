@@ -1,0 +1,28 @@
+<div class="ion-page">
+  <ion-content>
+    <ion-label class="title">iContact</ion-label>
+  
+    <ion-card class="card">
+      <ion-card-title>Confirmation</ion-card-title>
+      <p class="i1">Un lien vous a été envoyé via email pour confirmer votre addresse</p>
+  
+  <ion-row>
+    <ion-label   class="lab"> Vous n'avez pas reçu d'email?</ion-label>
+  </ion-row>
+  
+  <ion-button fill="outline" class="but" shape="round" (click)="OnResend()">Ré-envoyer</ion-button>
+    </ion-card>
+  
+    
+   <ion-button  shape="round" fill="outline" class="button1" [routerLink]="['/','sign-up-email']" routerDirection="backward">
+    <ion-icon name="arrow-back"></ion-icon>
+    Retour </ion-button>
+  
+    
+    <ion-button shape="round" fill="outline"class="button1" (click)="onNext()"> 
+      <ion-icon name="arrow-forward"></ion-icon>
+      Suivant</ion-button>
+  
+  
+  </ion-content>
+  </div>

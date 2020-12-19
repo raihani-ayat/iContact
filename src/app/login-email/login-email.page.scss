@@ -1,0 +1,111 @@
+ion-content{
+    --background: #ffffff;
+    
+}
+.title{
+    color:#595959;
+    position: absolute;
+    padding: 0px;
+    margin-left: 70px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 70px;
+
+}
+
+.card{
+height: 470px;
+margin-top: 120px;
+}
+ion-card-title{
+    color: #ebc000;
+    margin-left: -20vh;
+    margin-top: 10px;
+    font-size: 25px;
+    text-align: center;
+    font-family: Georgia, serif;
+    font-weight: lighter;
+    padding-bottom: 10px;
+}
+
+.i1{
+    color: #3d3d3d;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 15px;
+    text-align: center;
+    font-family: Georgia, serif;
+
+}
+.input{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 40px;
+    --border-color: #ebc000;
+    
+}
+
+
+.next{
+    --border-color: #ebc000;
+    margin-left:15vh;
+    margin-top:3vh;
+    position: relative ;
+    color: #020202;
+    --background-activated:#fff8d8;
+   
+
+}
+
+.fir{
+    color: #b39200;
+    margin-left:15vh;
+    font-family: American Typewriter, serif;
+    font-size: 10px;
+    margin-top: 20px;
+    position: relative  ;
+}
+
+.dif{
+    color:#949494 ;
+    font-family: American Typewriter, serif;
+    margin-left: 5vh;
+    margin-top: 50px;
+    
+}
+
+
+.fb{
+    --background: #595959;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+.fb1{
+    --background: #595959;
+    margin-left: 30px;
+    margin-top: 10px;
+
+}
+.account{
+    color:#949494 ;
+    font-family: American Typewriter, serif;
+    margin-top:5vh;
+    margin-left: 2vh;
+
+}
+.account1{
+    color:#949494 ;
+    font-family: American Typewriter, serif;
+    margin-top:2vh;
+    margin-left: 2vh;
+
+}
+.ac2{
+
+    color: #b39200;
+    margin-top:3vh;
+    margin-left: 4px;
+}
+
+.ic{
+    position: relative center;
+}

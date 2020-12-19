@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title class="title">iContacts</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content>
+  <ion-label class="title2">Mes contacts</ion-label>
+  <ion-card *ngIf="NoContact" class="noCard">
+    <ion-card-title class="noTitle">Vous n'avez aucun contact!</ion-card-title>
+    <ion-card-subtitle class="noSub"> Ajouter un contact</ion-card-subtitle>
+    <ion-button shape="round" fill="outline" class="add" [routerLink]="['/','add-contact']">Ajouter un contact</ion-button>
+  </ion-card>
+  <ion-list>
+   <ion-item *ngFor="let contact of my_contacts">
+    <ion-row>
+      <ion-col size="40">
+    <ion-card  class="card">
+      <ion-thumbnail>
+        <ion-img *ngIf="NoPicture" src="../assets/account.png" class="pic"></ion-img>
+      </ion-thumbnail>
+      <ion-card-title class="title3">{{contact.name}}</ion-card-title>
+      <ion-card-subtitle class="sub">{{contact.phone}}</ion-card-subtitle>
+      <ion-row>
+      <ion-icon class="ic" name="open-outline" (click)="onOpen(contact.uid)"></ion-icon>
+      <ion-icon class="ic" name="pencil-outline" (click)="onEdit(contact.uid)"></ion-icon>
+      <ion-icon class="ic" name="trash-outline"(click)="onDelete(contact.uid)"></ion-icon>
+    </ion-row>
+    </ion-card>
+  </ion-col>
+  </ion-row> 
+  </ion-item>
+  </ion-list>
+
+
+  <ion-button shape="round" fill="outline" class="back" [routerLink]="['/','index']" >Retour</ion-button>
+
+</ion-content>

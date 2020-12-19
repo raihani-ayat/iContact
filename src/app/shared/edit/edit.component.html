@@ -1,0 +1,29 @@
+<ion-content>
+ 
+  <ion-thumbnail class="pic">
+    <ion-img src={{contact.image}}></ion-img>
+  </ion-thumbnail>
+  <ion-label>Changer la photo</ion-label>
+ <ion-card class="card">
+  <ion-item class="input">
+    <ion-input #name  >{{contact.name}}</ion-input>
+  </ion-item>
+  <ion-item class="input">
+    <ion-input #phone  >{{contact.phone}}</ion-input>
+  </ion-item>
+  <ion-item class="input">
+    <ion-input #phone2  >{{contact.phone_bis}}</ion-input>
+  </ion-item>
+  <ion-item class="input">
+    <ion-input #email  >{{contact.email}}</ion-input>
+  </ion-item>
+  <ion-item class="input">
+    <ion-input #instagram  >{{contact.instagram}}</ion-input>
+  </ion-item>
+</ion-card> 
+<ion-buttons>
+  <ion-button shape="round" fill="outline" class="add1" (click)="onDismiss()">Annuler</ion-button>
+  <ion-button shape="round" fill="outline" class="add1" (click)="onUpdate(name.value, phone.value, phone2.value, email.value, instagram.value)">Annuler</ion-button>
+</ion-buttons>
+
+</ion-content>

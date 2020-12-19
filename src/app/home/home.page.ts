@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component ,OnInit,ViewChild } from '@angular/core';
+import { IonSlides } from '@ionic/angular';
 
 @Component({
   selector: 'app-home',
@@ -6,7 +7,17 @@ import { Component } from '@angular/core';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
+  @ViewChild('slides') slides: IonSlides;
 
   constructor() {}
+  ngOnInit() {
+  }
+
+  SlideNext(){
+    this.slides.slideNext();
+  }
+  SlidePrev(){
+    this.slides.slidePrev();
+  }
 
 }

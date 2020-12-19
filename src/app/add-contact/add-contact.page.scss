@@ -1,0 +1,59 @@
+:root{
+    --ion-safe-area-top: 20px;
+    --ion-safe-area-bottom: 22px;
+}
+.title{
+    color:#595959;
+    padding: 0px;
+    margin-left: -3vh;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 25px;
+}
+.back{
+ --color:black;
+ --background:white;
+
+}
+.card{
+    height: 400px;
+    margin-top: 50px;
+}
+.input{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 40px;
+    --border-color: #ebc000;
+
+}
+.add-pic{
+    color:#949494 ;
+    font-family: American Typewriter, serif;
+    margin-top:10vh;
+    position: relative;
+    margin-left: 16vh;
+
+}
+.pic{
+    margin-top:20px;
+    margin-left: 150px;
+}
+.add{
+    --border-color: #ebc000;
+    margin-left:10vh;
+    margin-top:3vh;
+    font-size: 20px;
+    position: relative ;
+    color: #020202;
+    --background-activated:#fff8d8;
+
+}
+.add1{
+    --border-color: #ebc000;
+    font-size: 20px;
+    margin-left:20px;
+    margin-top:3vh;
+    position: relative ;
+    color: #020202;
+    --background-activated:#fff8d8;
+
+}

@@ -1,0 +1,86 @@
+:root{
+    --ion-safe-area-top: 20px;
+    --ion-safe-area-bottom: 22px;
+}
+
+ion-content{
+    --background: #ffffff; 
+}
+.title{
+    color:#595959;
+    position: absolute;
+    padding: 0px;
+    margin-left: 70px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 70px;
+
+}
+
+.card{
+height: 300px;
+margin-top: 120px;
+}
+ion-card-title{
+    color: #ebc000;;
+    margin-left: -20vh;
+    margin-top: 10px;
+    font-size: 25px;
+    text-align: center;
+    font-family: Georgia, serif;
+    font-weight: lighter;
+    padding-bottom: 10px;
+}
+
+.i1{
+    color: #3d3d3d;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 15px;
+    text-align: center;
+    font-family: Georgia, serif;
+
+}
+.input{
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 40px;
+    --border-color:  #ebc000 ;
+    
+}
+
+.lab{
+    color:#949494 ;
+    font-family: American Typewriter, serif;
+    margin-top:5vh;
+    margin-left: 2vh;
+}
+
+
+
+.but{
+    --border-color: #ebc000;
+     color: #000000;
+     margin-left: 100px;
+     margin-top: 20px;
+     font-size: 20px;
+     --background-activated:#fff8d8;
+}
+.code{
+    margin-left: 15vh;
+    margin-top: 25px;
+    --border-color: #ebc000;
+    font-size: 15px;
+    font-family: Georgia, serif;
+    color:#3d3d3d ;
+    --background-activated:#fff8d8;
+
+}
+.button1{
+    --border-color: #ebc000;
+    --background-activated:#fff8d8;
+     color: #000000;
+     margin-left: 120px;
+     margin-top: 20px;
+     font-size: 20px;
+    
+   }

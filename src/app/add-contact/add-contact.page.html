@@ -1,0 +1,38 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title class="title">iContact</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+ 
+  <ion-thumbnail class="pic">
+    <ion-img src="../assets/account.png"></ion-img>
+  </ion-thumbnail>
+  <ion-label class="add-pic" (click)="onChoosePicture()">ajouter photo</ion-label>
+ <ion-card class="card">
+  <ion-item class="input">
+    <ion-input clearInput="true" placeholder="Nom" #name required ></ion-input>
+  </ion-item>
+  <ion-item class="input">
+    <ion-input clearInput="true" placeholder="Prénom" #lName required ></ion-input>
+  </ion-item>
+  <ion-item class="input">
+    <ion-input clearInput="true" placeholder="Numéro télephone" #phone1 required></ion-input>
+  </ion-item>
+  <ion-item class="input">
+    <ion-input clearInput="true" placeholder="Numéro télephone bis" #phone2 ></ion-input>
+  </ion-item>
+  <ion-item class="input">
+    <ion-input clearInput="true" placeholder="Email" #email ></ion-input>
+  </ion-item>
+  <ion-item class="input">
+    <ion-input clearInput="true" placeholder="Instagram" #insta ></ion-input>
+  </ion-item>
+</ion-card> 
+<ion-buttons>
+  <ion-button size="large" shape="round" fill="outline" class="add" (click)="onAdd(name.value,lName.value,phone1.value,phone2.value,email.value,insta.value)">Ajouter</ion-button>
+  <ion-button shape="round" fill="outline" class="add1" [routerLink]="['/','index']">Annuler</ion-button>
+</ion-buttons>
+
+</ion-content>

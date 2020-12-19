@@ -1,5 +1,8 @@
 {
   "name": "iContact",
-  "integrations": {},
+  "integrations": {
+    "capacitor": {},
+    "cordova": {}
+  },
   "type": "angular"
 }
